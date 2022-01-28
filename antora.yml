@@ -1,0 +1,7 @@
+name: ripplex
+title: Ripple X Docs
+version: 1.0.0
+start_page: ROOT:get-started-using-python.adoc
+nav:
+- modules/ROOT/nav.adoc
+
