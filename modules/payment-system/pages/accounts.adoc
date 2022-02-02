@@ -21,11 +21,15 @@ The typical way to get an account in the XRP Ledger is as follows:
 
 The following diagram shows the relationship between keys and addresses:
 
-image: address-encoding.svg[Relationship between keys and addresses]
+image:address-encoding.svg[Relationship between keys and addresses]
 
 === Include Code Example from File
 
+.Sample Code
+[,js]
+----
 include::example$encode-address.js[] 
+----
 
 For more information about including sample code from other locations, see https://docs.antora.org/antora/latest/page/examples/.
 
