@@ -1,0 +1,3 @@
+= Payment System Fundamentals
+:description: One of the primary purposes of the XRP Ledger is payment processing. Learn more about key concepts that will help you understand the XRP Ledger payment system.
+

@@ -1,1 +1,5 @@
+.Get Started
 * xref:get-started-using-python.adoc[Get Started]
+* xref:native-asciidoc-get-started-using-python.adoc[]
+.Payment Fundamentals
+* xref: payment-system:accounts.adoc[]

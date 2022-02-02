@@ -1,0 +1,34 @@
+= Accounts
+:description: An "Account" in the XRP Ledger represents a holder of XRP and a sender of transactions.
+
+{description}
+
+The core elements of an account are:
+
+* An identifying address, such as rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn. This is a "classic address", as opposed to the https://xrpl.org/accounts.html#addresses[X-Address format].
+* An XRP balance. Some of this XRP is set aside for the https://xrpl.org/reserves.html[Reserve].
+
+
+== Creating Accounts
+
+The typical way to get an account in the XRP Ledger is as follows:
+
+. Generate a key pair from a strong source of randomness and calculate the address of that key pair. 
+. Have someone who already has an account in the XRP Ledger send XRP to the address you generated.
+** For example, you can buy XRP in a private exchange, then withdraw XRP from the exchange to the address you specified.
+
+== Address Encoding
+
+The following diagram shows the relationship between keys and addresses:
+
+image: address-encoding.svg[Relationship between keys and addresses]
+
+=== Include Code Example from File
+
+include::example$encode-address.js[] 
+
+For more information about including sample code from other locations, see https://docs.antora.org/antora/latest/page/examples/.
+
+== Sample Table
+
+
