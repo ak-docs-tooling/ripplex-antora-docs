@@ -198,4 +198,4 @@ For a detailed description of every response field, see link:account_info.html#r
 Now that you know how to use `xrpl-py` to connect to the XRP Ledger, generate a wallet, and look up information about an account, you can also use `xrpl-py` to:
 
 * xref:get-started-using-python.adoc[Send XRP].
-* xref:payment-system:payment-.adoc[].
+* xref:payment-system:accounts.adoc[].
